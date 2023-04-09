@@ -1,0 +1,14 @@
+{
+    "name": "terasoluna-vscode",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "redhat.vscode-community-server-connector"
+            ]
+        }
+    }
+}
